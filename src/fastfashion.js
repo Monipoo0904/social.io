@@ -11,6 +11,7 @@ function Fastfashion() {
     <Link to={"/"}>Home</Link>
     <Link to={"/Fastfashion"}>Fast Fashion</Link>
     <Link to={"/Foodinsecurity"}>Food Insecurity</Link>
+    <Link to={"/Chat"}>Chat with us!</Link>
   </div>
     
     <h1 >The Fast Fashion Industry</h1>

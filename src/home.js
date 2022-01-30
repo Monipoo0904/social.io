@@ -24,6 +24,7 @@ function Home() {
     <Link to={"/"}>Home</Link>
     <Link to={"./Fastfashion"}>Fast Fashion</Link>
     <Link to={"./Foodinsecurity"}>Food Insecurity</Link>
+    <Link to={"/Chat"}>Chat with us!</Link>
   </div>
 <h1 class="head">Welcome to SocialIo, the place to educate yourself on the social issues of the world</h1>
  

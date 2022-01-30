@@ -6,6 +6,7 @@ import './App.css'
 import Fastfashion from './fastfashion'
 import Foodinsecurity from './foodinsecurity'
 import Home from './home'
+import Chat from './chat'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/fastfashion" element={<Fastfashion/>}/>
           <Route exact path="/foodinsecurity" element={<Foodinsecurity/>}/>
+          <Route exact path="/chat" element={<Chat/>}/>
         </Routes>
       
     </Router>

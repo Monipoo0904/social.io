@@ -1,0 +1,36 @@
+.nav{
+    
+    background-color: #22223B;
+    overflow: hidden;
+      
+  }
+  .nav a {
+    float: left;
+    color: #F2E9E4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: #9A8C98;
+    color: white;
+  }
+  
+
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+ 
