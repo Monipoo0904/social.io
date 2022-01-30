@@ -7,18 +7,23 @@ function Foodinsecurity() {
   return (
     <div>
  <head>
+
+
+
     <title>Food Insecurity</title>
     </head>
     
+  <div class="nav">
+    <Link to={"/"}>Home</Link>
+    <Link to={"/Fastfashion"}>Fast Fashion</Link>
+    <Link to={"/Foodinsecurity"}>Food Insecurity</Link>
+  </div>
+
+
     <h1 class="headtext">Food Insecurity </h1>
 
 
-    <div class="nav">
-    <Link to={"./Home"}>Home</Link>
-    <Link to={"./Fastfashion"}>Fast Fashion</Link>
-    <Link to={"./Foodinsecurity"}>Food Insecurity</Link>
-  </div>
-
+  
     <body>
     <h2>Did you know:</h2>
 
@@ -73,13 +78,6 @@ function Foodinsecurity() {
      --> */}
 
 </div>
-
-
-
-
-
-
-
 
 
 

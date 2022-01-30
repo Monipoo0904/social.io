@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from './logo.svg';
+
 import './fastfashion.css';
 
 import {Link} from "react-router-dom";
@@ -7,15 +7,15 @@ import {Link} from "react-router-dom";
 function Fastfashion() {
   return (
  <div>
-     <head>
-    <title>Fast Fashion</title>
-    <h1 class = "head">The Fast Fashion Industry</h1>
-    </head>
     <div class="nav">
-    <Link to={"./Home"}>Home</Link>
-    <Link to={"./Fastfashion"}>Fast Fashion</Link>
-    <Link to={"./Foodinsecurity"}>Food Insecurity</Link>
+    <Link to={"/"}>Home</Link>
+    <Link to={"/Fastfashion"}>Fast Fashion</Link>
+    <Link to={"/Foodinsecurity"}>Food Insecurity</Link>
   </div>
+    
+    <h1 >The Fast Fashion Industry</h1>
+    
+ 
 
 
     <body>
@@ -53,9 +53,12 @@ function Fastfashion() {
 
     
     </body>
+ 
+ 
+      
+
+ 
  </div>
-
-
 
 
 
